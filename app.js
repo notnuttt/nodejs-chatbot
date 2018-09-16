@@ -307,6 +307,18 @@ function receivedMessage(event) {
         sendAccountLinking(senderID);
         break;
 
+      case 'Hi':
+        sendAccountLinking("สวัสดีครับ ยินดีต้อนรับเข้าสู่เพจ Messenger bot test");
+        break;
+
+      case 'Hello':
+        sendAccountLinking("สวัสดีครับ ยินดีต้อนรับเข้าสู่เพจ Messenger bot test");
+        break;
+
+      case 'สวัสดี':
+        sendAccountLinking("สวัสดีครับ ยินดีต้อนรับเข้าสู่เพจ Messenger bot test");
+        break;
+
       default:
         sendTextMessage(senderID, messageText);
     }
