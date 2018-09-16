@@ -308,15 +308,15 @@ function receivedMessage(event) {
         break;
 
       case 'Hi':
-        sendTextMessage("สวัสดีครับ ยินดีต้อนรับเข้าสู่เพจ Messenger bot test");
+        sendTextMessage(senderID, "สวัสดีครับ ยินดีต้อนรับเข้าสู่เพจ Messenger bot test");
         break;
 
       case 'Hello':
-        sendTextMessage("สวัสดีครับ ยินดีต้อนรับเข้าสู่เพจ Messenger bot test");
+        sendTextMessage(senderID, "สวัสดีครับ ยินดีต้อนรับเข้าสู่เพจ Messenger bot test");
         break;
 
       case 'สวัสดี':
-        sendTextMessage("สวัสดีครับ ยินดีต้อนรับเข้าสู่เพจ Messenger bot test");
+        sendTextMessage(senderID, "สวัสดีครับ ยินดีต้อนรับเข้าสู่เพจ Messenger bot test");
         break;
 
       default:
